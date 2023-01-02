@@ -1,0 +1,27 @@
+.dishes-section {
+  padding: 120px 0;
+  background-color: #f8f8f8;
+}
+.dishes_wrap {
+  position: relative;
+}
+.dishes-title {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: #bb2339;
+  margin-bottom: 40px;
+}
+.dishes-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.dishes_bottom-img {
+  position: absolute;
+  right: -235px;
+  bottom: -162px;
+}

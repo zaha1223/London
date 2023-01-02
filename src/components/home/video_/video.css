@@ -1,0 +1,8 @@
+.video-section {
+  height: 763px;
+  background-image: url(../../../assets/imgs/video.png);
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-bottom: 120px;
+}

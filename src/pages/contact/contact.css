@@ -1,0 +1,134 @@
+.contact_title {
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: #242424;
+  text-align: center;
+  margin-bottom: 57px;
+}
+.contact_wrapper {
+  display: flex;
+  margin-bottom: 110px;
+}
+.contact_social {
+  margin-right: 50px;
+}
+.contact_item {
+  width: 420px;
+  background: #ffffff;
+  border: 1px solid rgba(36, 36, 36, 0.1);
+  border-radius: 14px;
+  padding: 25px 0 20px 25px;
+  display: flex;
+  margin-bottom: 15px;
+}
+.contact_link_wrapper {
+  width: 60px;
+  height: 60px;
+  display: block;
+  background: rgba(36, 36, 36, 0.05);
+  border-radius: 100px;
+  margin-right: 25px;
+  position: relative;
+}
+.contact_link_img {
+  position: absolute;
+  top: 18px;
+  left: 17px;
+}
+.contact_link_title {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 34px;
+  color: #242424;
+}
+.contact_link {
+  font-family: "Open Sans";
+  font-size: 14px;
+  line-height: 19px;
+  color: #242424;
+  opacity: 0.7;
+}
+.contact_message {
+  max-width: 790px;
+  padding: 40px 40px 50px 40px;
+  background: #ffffff;
+  border: 1px solid rgba(36, 36, 36, 0.1);
+  border-radius: 14px;
+}
+.message_title {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 34px;
+  color: #242424;
+  margin-bottom: 16px;
+}
+.message_text {
+  font-family: "Open Sans";
+  font-size: 16px;
+  line-height: 24px;
+  color: #242424;
+  opacity: 0.7;
+  margin-bottom: 40px;
+}
+.contact_form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.contact_inpt {
+  background: #ffffff;
+  border: 1px solid rgba(51, 34, 68, 0.1);
+  border-radius: 12px;
+  width: 345px;
+  padding: 20px 0 20px 20px;
+}
+.contact_textarea {
+  border: none;
+  background: #ffffff;
+  border: 1px solid rgba(36, 36, 36, 0.1);
+  border-radius: 14px;
+  padding: 20px 0 20px 20px;
+  font-family: "Open Sans";
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #333333;
+  opacity: 0.6;
+  width: 710px;
+  height: 150px;
+}
+.form_btn {
+  border: none;
+  border-style: none;
+  background: #bb2339;
+  border-radius: 39px;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  padding: 18px 45px;
+}
+.contact_map_title {
+  font-weight: 500;
+  font-size: 38px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: #000000;
+  margin-bottom: 40px;
+}
+.contact_map {
+  margin-bottom: 280px;
+}

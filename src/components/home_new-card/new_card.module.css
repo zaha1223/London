@@ -1,0 +1,32 @@
+.card {
+  max-width: 410px;
+  background: #ffffff;
+  border: 1px solid rgba(36, 36, 36, 0.1);
+  border-radius: 14px;
+}
+.card_inner {
+  padding: 2px 30px 30px 20px;
+}
+.card_subtitle {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: #242424;
+  margin-bottom: 10px;
+}
+.card_text {
+  font-family: "Open Sans";
+  font-size: 14px;
+  line-height: 24px;
+  color: #aaaaaa;
+  margin-bottom: 20px;
+}
+.card_link {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.04em;
+  color: #bb2339;
+}

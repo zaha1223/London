@@ -1,0 +1,28 @@
+.food_card {
+  background: #ffffff;
+  border: 1px solid rgba(36, 36, 36, 0.1);
+  border-radius: 14px;
+  padding: 30px 30px 50px 30px;
+}
+.food_card_img {
+  width: inherit;
+  height: 240px;
+  margin-bottom: 20px;
+}
+.food_card_name {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #242424;
+  margin-bottom: 30px;
+}
+.food_card_price {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 38px;
+  text-align: center;
+  color: #bb2339;
+}

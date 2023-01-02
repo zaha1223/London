@@ -1,0 +1,51 @@
+.hero-section {
+  background-color: #bb2339;
+  padding: 80px 0 237px 0;
+}
+.hero {
+  display: flex;
+  align-items: center;
+}
+.hero-content {
+  max-width: 555px;
+  margin-right: 98px;
+}
+.hero-subtitle {
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+.hero-text {
+  font-family: "Open Sans";
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  opacity: 0.7;
+  margin-bottom: 40px;
+}
+.hero-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 100px;
+  background-color: inherit;
+  padding: 8px 32px;
+}

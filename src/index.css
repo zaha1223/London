@@ -42,6 +42,31 @@
     url("./assets/fonts/m-plus-rounded-1c-v15-latin-700.woff2") format("woff2"),
     url("./assets/fonts/m-plus-rounded-1c-v15-latin-700.woff") format("woff");
 }
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    url("./assets/fonts/inter-v12-latin-regular.woff2") format("woff2"),
+    url("./assets/fonts/inter-v12-latin-regular.woff") format("woff");
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  src: local(""),
+    url("./assets/fonts/inter-v12-latin-600.woff2") format("woff2"),
+    url("./assets/fonts/inter-v12-latin-600.woff") format("woff");
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""),
+    url("./assets/fonts/inter-v12-latin-700.woff2") format("woff2"),
+    url("./assets/fonts/inter-v12-latin-700.woff") format("woff");
+}
 *,
 *::after,
 *::before {
@@ -49,6 +74,9 @@
   padding: 0;
 }
 body {
+  font-family: "M PLUS Rounded 1c";
+  font-style: normal;
+  font-weight: 400;
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;

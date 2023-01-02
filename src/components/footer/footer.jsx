@@ -29,8 +29,13 @@ const Footer = () => {
               <p className="footer_next_copy">
                 9 W 53rd St, London, NY 10019, UK
               </p>
-              <a href="tel">+1 212-344-1230</a> <br />
-              <a href="tel">+1 212-555-1230</a>
+              <a className="footer_link_a" href="tel:+1 212-344-1230">
+                +1 212-344-1230
+              </a>{" "}
+              <br />
+              <a className="footer_link_a" href="tel:+1 212-344-1230">
+                +1 212-555-1230
+              </a>
             </div>
             <div className="footer_next_box">
               <img src={FooterLogo} alt="" width={336} height={117} />
@@ -39,11 +44,34 @@ const Footer = () => {
                 service of others.”
               </p>
               <div className="footer_link">
-                <a href="#" className="img"><img src={Foocebok} alt="" /></a>
-                <a href="#" className="img"><img src={Tiwiter} alt="" /></a>
-                <a href="#" className="img"><img src={Instagram} alt="" /></a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  href="https://www.facebook.com/campaign/landing.php?campaign_id=11554070363&extra_1=s%7Cc%7C477437435741%7Ce%7Cfacebook%7C&placement=&creative=477437435741&keyword=facebook&partner_id=googlesem&extra_2=campaignid%3D11554070363%26adgroupid%3D112923417056%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-541132862%26loc_physical_ms%3D1028523%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=CjwKCAiAzKqdBhAnEiwAePEjksOYxwyhxsrusUgCElC5g-du7tqDfOZE92QrRx410UScHxF_aj3GWxoCwmQQAvD_BwE"
+                  className="img"
+                >
+                  <img src={Foocebok} alt="" />
+                </a>
+                <a
+                  href="https://twitter.com/home"
+                  rel="noreferrer"
+                  target="_blank"
+                  className="img"
+                >
+                  <img src={Tiwiter} alt="" />
+                </a>
+                <a
+                  href="https://www.instagram.com/"
+                  rel="noreferrer"
+                  target="_blank"
+                  className="img"
+                >
+                  <img src={Instagram} alt="" />
+                </a>
               </div>
-              <p className="footer_year">2022 Pop online. All Rights reserved.</p>
+              <p className="footer_year">
+                2022 Pop online. All Rights reserved.
+              </p>
             </div>
             <div className="footer_next_box">
               <h3 className="footer_next_title">Working Hours</h3>
