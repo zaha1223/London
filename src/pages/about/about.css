@@ -1,0 +1,35 @@
+.about_section {
+  padding: 70px 0;
+}
+.about_content {
+  max-width: 720px;
+
+  margin: 0 auto;
+}
+.about_title {
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: #242424;
+  margin-bottom: 57px;
+}
+.about_text,
+.about_bottom_text {
+  font-family: "Open Sans";
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.04em;
+  color: #242424;
+  opacity: 0.8;
+  margin-bottom: 30px;
+}
+.about_img {
+  margin-bottom: 30px;
+}
+.about_bottom_text {
+  margin-bottom: 280px;
+}

@@ -1,0 +1,29 @@
+.card {
+  max-width: 310px;
+  padding: 20px 20px 40px 20px;
+  background-color: #fff;
+}
+.card-img {
+  margin-bottom: 10px;
+}
+.card-text {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #242424;
+  margin-bottom: 24px;
+}
+.card-rating {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 20px auto;
+}
+.card-price {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  color: #bb2339;
+}

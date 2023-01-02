@@ -1,0 +1,39 @@
+.menu-section {
+  padding: 120px 0;
+}
+
+.menu_title {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 48px;
+  margin-bottom: 60px;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: #bb2339;
+}
+.menu_list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 50px;
+}
+.menu_btn {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: #242424;
+  border: 1px solid #bb2339;
+  border-radius: 100px;
+  text-align: center;
+  padding: 10px 30px;
+  background-color: inherit;
+}
+.menu_btn:visited {
+  background-color: #bb2339;
+}
