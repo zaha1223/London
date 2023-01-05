@@ -1,8 +1,18 @@
-import React from "react";
+import React, { useEffect,useState } from "react";
 import "./../news_cards/news_cards.css";
 import NewsImgs from "../../assets/img/news_cards_img.png"
 
 const NewsCards = () => {
+
+  const [news, setNews] = useState([])
+
+  useEffect(()=> {
+    fetch("https://eaturkishback-production.up.railway.app/news")
+    .then(res=> res.json())
+    .then(data=> setNews(data.data))
+  })
+
+
   return (
     <section>
       <div className="container">
@@ -13,19 +23,17 @@ const NewsCards = () => {
             <h1 className="news_title">News</h1>
           </div>
           <ul className="news_cards_list">
-            <li className="news_cards_list_item">
-              <img src={NewsImgs} alt="" />
-              <h2 className="news_cards_title">tips for prepping and caring for your grill</h2>
+            {news?.map(item => <li className="news_cards_list_item">
+              <img src={item.news_img} alt="" width={400} />
+              <h2 className="news_cards_title">{item.news_title}</h2>
               <p className="news_cards_copy">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Volutpat mattis ipsum turpis elit elit scelerisque egestas mus
-                in.
+                {item.news_desc}
               </p>
               <div>
                 <a href="#" className="news_cards_link">Read More</a>
-                <span className="news_cards_span">16 Apr 2021</span>
+                <span className="news_cards_span">{item.created_at.slice(0,10)}</span>
               </div>
-            </li>
+            </li>)}
           </ul>
           <div>
             <button className="news_btn">View More</button>

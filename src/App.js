@@ -8,14 +8,14 @@ import Footer from "./components/footer/footer";
 function App() {
   return (
     <div className="App">
-        <Header/>
+      <Header/>
       <Routes>
           <Route path="/"/>
           <Route path="/news" element={<News/>}/>
           <Route path="/"/>
           <Route path="/"/>
       </Routes>
-        <Footer/>
+      <Footer/>
     </div>
   );
 }
